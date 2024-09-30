@@ -1,0 +1,12 @@
+@import "base.css";
+@import "reused.css";
+@import "header.css";
+@import "hero.css";
+@import "service.css";
+@import "pricing.css";
+@import "gallery.css";
+@import "appointment.css";
+@import "footer.css";
+@import "backtotop.css";
+
+@import "media.css";

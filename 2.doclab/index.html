@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>DocLab - home</title>
+    <meta name="title" content="Doclab - home" />
+    <meta
+      name="description"
+      content="This is a clinic html template made by CodeCoffeeCreator"
+    />
+
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <link rel="preload" as="image" href="./assets/images/hero-banner.png" />
+    <link rel="preload" as="image" href="./assets/images/hero-bg.png" />
+  </head>
+
+  <body id="top">
+    <div class="preloader" data-preloader>
+      <div class="circle"></div>
+    </div>
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/logo.svg"
+            width="136"
+            height="46"
+            alt="Doclab home"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="#" class="logo">
+              <img
+                src="./assets/images/logo.svg"
+                width="136"
+                height="46"
+                alt="Doclab home"
+              />
+            </a>
+
+            <button
+              class="nav-close-btn"
+              aria-label="clsoe menu"
+              data-nav-toggler
+            >
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link title-md">Головна</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#about" class="navbar-link title-md">Про нас</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#specialists" class="navbar-link title-md">
+                Спеціалісти
+              </a>
+            </li>
+            <li class="navbar-item">
+              <a href="#news" class="navbar-link title-md">Новини</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#contacts" class="navbar-link title-md">Контакти</a>
+            </li>
+          </ul>
+
+          <ul class="social-list">
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
+
+        <a href="#" class="btn has-before title-md">Замовити консультацію</a>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <section
+          class="section hero"
+          id="home"
+          style="background-image: url('./assets/images/hero-bg.png')"
+          aria-label="home"
+        >
+          <div class="container">
+            <div class="hero-content">
+              <p class="hero-subtitle has-before" data-reveal="left">
+                Взаємодійте з Doclab
+              </p>
+
+              <h1 class="headline-lg hero-title" data-reveal="left">
+                Знайдіть найближчого <br />
+                Лікаря.
+              </h1>
+
+              <div class="hero-card" data-reveal="left">
+                <p class="title-lg card-text">
+                  Пошук лікарів, клінік, шпиталів тощо.
+                </p>
+
+                <div class="wrapper">
+                  <div class="input-wrapper title-lg">
+                    <input
+                      type="text"
+                      name="location"
+                      placeholder="Місце..."
+                      class="input-field"
+                    />
+
+                    <ion-icon name="location"></ion-icon>
+                  </div>
+
+                  <button class="btn has-before">
+                    <ion-icon name="search"></ion-icon>
+
+                    <span class="span title-md">Знайти</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <figure class="hero-banner" data-reveal="right">
+              <img
+                src="./assets/images/hero-banner.png"
+                width="590"
+                height="517"
+                loading="eager"
+                alt="hero banner"
+                class="w-100"
+              />
+            </figure>
+          </div>
+        </section>
+
+        <section class="service" aria-label="service">
+          <div class="container">
+            <ul class="service-list">
+              <li>
+                <div class="service-card" data-reveal="bottom">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/icon-1.png"
+                      width="71"
+                      height="71"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <h3 class="headline-sm card-title">
+                    <a href="#">Психіатрія</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Діагностика, профілактика та лікування психічних розладів
+                  </p>
+
+                  <button
+                    class="btn-circle"
+                    aria-label="read more about psychiatry"
+                  >
+                    <ion-icon
+                      name="arrow-forward"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </button>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card" data-reveal="bottom">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/icon-2.png"
+                      width="71"
+                      height="71"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <h3 class="headline-sm card-title">
+                    <a href="#">Гінекологія</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Лікування захворювань, та гігієна жінок
+                  </p>
+
+                  <button
+                    class="btn-circle"
+                    aria-label="read more about Gynecology"
+                  >
+                    <ion-icon
+                      name="arrow-forward"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </button>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card" data-reveal="bottom">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/icon-3.png"
+                      width="71"
+                      height="71"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <h3 class="headline-sm card-title">
+                    <a href="#">Пульмонологія</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Перевірка трахеї, бронхів, легень і плеври
+                  </p>
+
+                  <button
+                    class="btn-circle"
+                    aria-label="read more about Pulmonology"
+                  >
+                    <ion-icon
+                      name="arrow-forward"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </button>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card" data-reveal="bottom">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/icon-4.png"
+                      width="71"
+                      height="71"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <h3 class="headline-sm card-title">
+                    <a href="#">Ортопедія</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Діагностика проблем кістково-м'язової системи
+                  </p>
+
+                  <button
+                    class="btn-circle"
+                    aria-label="read more about Orthopedics"
+                  >
+                    <ion-icon
+                      name="arrow-forward"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </button>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="section about" id="about" aria-labelledby="about-label">
+          <div class="container">
+            <div class="about-content">
+              <p
+                class="section-subtitle title-lg has-after"
+                id="about-label"
+                data-reveal="left"
+              >
+                Про Нас
+              </p>
+
+              <h2 class="headline-md" data-reveal="left">
+                Досвідчені спеціалісти
+              </h2>
+
+              <p class="section-text" data-reveal="left">
+                В наших клініках працюють одні з найкваліфікованіших
+                спеціалістів нашої країни, та запрошені спеціалісти з-за кордону
+              </p>
+
+              <ul class="tab-list" data-reveal="left">
+                <li>
+                  <button class="tab-btn active">Бачення</button>
+                </li>
+                <li>
+                  <button class="tab-btn">Місія</button>
+                </li>
+                <li>
+                  <button class="tab-btn">Стратегія</button>
+                </li>
+              </ul>
+
+              <p class="tab-text" data-reveal="left">
+                Лікар проведе з Вами повноцінну консультацію, та буде тримати у
+                курсі всього проходження діагностики та лікування до самого
+                результату.
+              </p>
+
+              <div class="wrapper">
+                <ul class="about-list">
+                  <li class="about-item" data-reveal="left">
+                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+                    <span class="span">Діагностика</span>
+                  </li>
+                  <li class="about-item" data-reveal="left">
+                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+                    <span class="span">Назначення</span>
+                  </li>
+                  <li class="about-item" data-reveal="left">
+                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+                    <span class="span">Лікування</span>
+                  </li>
+                  <li class="about-item" data-reveal="left">
+                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+                    <span class="span">Налагодження імунітету</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <figure class="about-banner" data-reveal="right">
+              <img
+                src="./assets/images/about-banner.png"
+                width="554"
+                height="678"
+                loading="lazy"
+                alt="about banner"
+                class="w-100"
+              />
+            </figure>
+          </div>
+        </section>
+
+        <section
+          class="section listing"
+          id="specialists"
+          aria-labelledby="listing-label"
+        >
+          <div class="container">
+            <ul class="grid-list">
+              <li>
+                <p
+                  class="section-subtitle title-lg"
+                  id="listing-label"
+                  data-reveal="left"
+                >
+                  Лікарі, що в нас працюють
+                </p>
+
+                <h2 class="headline-md" data-reveal="left">
+                  Знайдіть свого спеціаліста
+                </h2>
+              </li>
+
+              <li>
+                <div class="listing-card" data-reveal="bottom">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/icon-1.png"
+                      width="71"
+                      height="71"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <div>
+                    <h3 class="headline-sm card-title">Психіатрія</h3>
+                    <p class="card-text">Більше...</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="listing-card" data-reveal="bottom">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/icon-2.png"
+                      width="71"
+                      height="71"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <div>
+                    <h3 class="headline-sm card-title">Гінекологія</h3>
+                    <p class="card-text">Більше...</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="listing-card" data-reveal="bottom">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/icon-4.png"
+                      width="71"
+                      height="71"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <div>
+                    <h3 class="headline-sm card-title">Пульмонологія</h3>
+                    <p class="card-text">Більше...</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="listing-card" data-reveal="bottom">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/icon-5.png"
+                      width="71"
+                      height="71"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <div>
+                    <h3 class="headline-sm card-title">Ортопедія</h3>
+                    <p class="card-text">Більше...</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="listing-card" data-reveal="bottom">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/icon-6.png"
+                      width="71"
+                      height="71"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <div>
+                    <h3 class="headline-sm card-title">Педіатрія</h3>
+                    <p class="card-text">Більше...</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="listing-card" data-reveal="bottom">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/icon-7.png"
+                      width="71"
+                      height="71"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <div>
+                    <h3 class="headline-sm card-title">Остеологія</h3>
+                    <p class="card-text">Більше...</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="section blog" id="news" aria-labelledby="blog-label">
+          <div class="container">
+            <p
+              class="section-subtitle title-lg text-center"
+              id="blog-label"
+              data-reveal="bottom"
+            >
+              Новини та Статті
+            </p>
+
+            <h2
+              class="section-title headline-md text-center"
+              data-reveal="bottom"
+            >
+              Останні статті
+            </h2>
+
+            <ul class="grid-list">
+              <li>
+                <div
+                  class="blog-card has-before has-after"
+                  data-reveal="bottom"
+                >
+                  <div class="meta-wrapper">
+                    <div class="card-meta">
+                      <ion-icon name="person-outline"></ion-icon>
+                      <span class="span">Адмін</span>
+                    </div>
+
+                    <div class="card-meta">
+                      <ion-icon name="folder-outline"></ion-icon>
+                      <span class="span">Спеціаліст</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline-sm card-title">
+                    Як боротися з пандемією?
+                  </h3>
+
+                  <time class="title-sm date" datetime="2023-01-28">
+                    28 January, 2023
+                  </time>
+
+                  <p class="card-text">
+                    Що пити від корони? Необхідно пити достатньо води та
+                    приймати призначені лікарем вітаміни. Цього має бути
+                    достатньо перших 5-7 днів...
+                  </p>
+
+                  <a href="#" class="btn-text title-lg">Більше</a>
+                </div>
+              </li>
+
+              <li>
+                <div
+                  class="blog-card has-before has-after"
+                  data-reveal="bottom"
+                >
+                  <div class="meta-wrapper">
+                    <div class="card-meta">
+                      <ion-icon name="person-outline"></ion-icon>
+                      <span class="span">Адмін</span>
+                    </div>
+
+                    <div class="card-meta">
+                      <ion-icon name="folder-outline"></ion-icon>
+                      <span class="span">Спеціаліст</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline-sm card-title">
+                    Як починається застуда?
+                  </h3>
+
+                  <time class="title-sm date" datetime="2023-01-28">
+                    28 January, 2023
+                  </time>
+
+                  <p class="card-text">
+                    Загалом симптоми застуди набагато м'якші, ніж симптоми
+                    грипу. Застуда зазвичай починається з пирхоти в горлі та
+                    нежитю...
+                  </p>
+
+                  <a href="#" class="btn-text title-lg">Більше</a>
+                </div>
+              </li>
+
+              <li>
+                <div
+                  class="blog-card has-before has-after"
+                  data-reveal="bottom"
+                >
+                  <div class="meta-wrapper">
+                    <div class="card-meta">
+                      <ion-icon name="person-outline"></ion-icon>
+                      <span class="span">Адмін</span>
+                    </div>
+
+                    <div class="card-meta">
+                      <ion-icon name="folder-outline"></ion-icon>
+                      <span class="span">Спеціаліст</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline-sm card-title">Як уникнути хвороб...</h3>
+
+                  <time class="title-sm date" datetime="2023-01-28">
+                    28 January, 2023
+                  </time>
+
+                  <p class="card-text">
+                    Знижують ймовірність хвороб і такі заходи, як кип'ятіння
+                    питної води, правильна обробка харчових продуктів,
+                    дотримання...
+                  </p>
+
+                  <a href="#" class="btn-text title-lg">Більше</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <footer
+      class="footer"
+      id="contacts"
+      style="background-image: url('./assets/images/footer-bg.png')"
+    >
+      <div class="container">
+        <div class="section footer-top">
+          <div class="footer-brand" data-reveal="bottom">
+            <a href="#" class="logo">
+              <img
+                src="./assets/images/logo.svg"
+                width="136"
+                height="46"
+                loading="lazy"
+                alt="Doclab home"
+              />
+            </a>
+
+            <ul class="contact-list has-after">
+              <li class="contact-item">
+                <div class="item-icon">
+                  <ion-icon name="mail-open-outline"></ion-icon>
+                </div>
+
+                <div>
+                  <p>
+                    Основна пошта :
+                    <a href="mailto:contact@website.com" class="contact-link">
+                      contacts@gmail.com
+                    </a>
+                  </p>
+
+                  <p>
+                    Допомога :
+                    <a href="mailto:Info@mail.com" class="contact-link">
+                      info@gmail.com
+                    </a>
+                  </p>
+                </div>
+              </li>
+
+              <li class="contact-item">
+                <div class="item-icon">
+                  <ion-icon name="call-outline"></ion-icon>
+                </div>
+
+                <div>
+                  <p>
+                    Office Telephone :
+                    <a href="tel:0029129102320" class="contact-link">
+                      0029129102320
+                    </a>
+                  </p>
+
+                  <p>
+                    Mobile :
+                    <a href="tel:000232439493" class="contact-link">
+                      000 2324 39493
+                    </a>
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-list" data-reveal="bottom">
+            <p class="headline-sm footer-list-title">Про Нас</p>
+
+            <p class="text">
+              Ми являємося передовою сучасною клінікою загального напрямку
+            </p>
+
+            <address class="address">
+              <ion-icon name="map-outline"></ion-icon>
+
+              <span class="text">
+                2416 вул. Київська <br />
+                481/1, індекс 20800
+              </span>
+            </address>
+          </div>
+
+          <ul class="footer-list" data-reveal="bottom">
+            <li>
+              <p class="headline-sm footer-list-title">Послуги</p>
+            </li>
+            <li>
+              <a href="#" class="text footer-link">Списки</a>
+            </li>
+            <li>
+              <a href="#" class="text footer-link">Як ми працюємо?</a>
+            </li>
+            <li>
+              <a href="#" class="text footer-link">Наші поради</a>
+            </li>
+            <li>
+              <a href="#" class="text footer-link">Новини</a>
+            </li>
+            <li>
+              <a href="#" class="text footer-link">Зв'язок з нами</a>
+            </li>
+          </ul>
+
+          <ul class="footer-list" data-reveal="bottom">
+            <li>
+              <p class="headline-sm footer-list-title">Корисні посилання</p>
+            </li>
+            <li>
+              <a href="#" class="text footer-link">Terms of Use</a>
+            </li>
+            <li>
+              <a href="#" class="text footer-link">Послуги</a>
+            </li>
+            <li>
+              <a href="#" class="text footer-link">Зв'язок з лікарем</a>
+            </li>
+            <li>
+              <a href="#" class="text footer-link">Оформити картку</a>
+            </li>
+            <li>
+              <a href="#" class="text footer-link">Списки лікарів</a>
+            </li>
+          </ul>
+
+          <div class="footer-list" data-reveal="bottom">
+            <p class="headline-sm footer-list-title">Підписка</p>
+
+            <form action="" class="footer-form">
+              <input
+                type="email"
+                name="email"
+                placeholder="Email"
+                class="input-field title-lg"
+              />
+
+              <button type="submit" class="btn has-before title-md">
+                Підписка
+              </button>
+            </form>
+
+            <p class="text">
+              Підпишіться на нашу розсилку та будьте в курсі всіх останніх новин
+            </p>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="text copyright">
+            &copy; DocLab 2024 | All Rights Reserved by Thomas Newman
+          </p>
+
+          <ul class="social-list">
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-google"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <a
+      href="#top"
+      class="back-top-btn"
+      aria-label="back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="chevron-up"></ion-icon>
+    </a>
+
+    <script src="./assets/js/script.js"></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
